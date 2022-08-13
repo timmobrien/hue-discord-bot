@@ -3,9 +3,10 @@ require('dotenv').config();
 
 const { discordBot } = require('./discord-bot');
 const { lightSwitch, setLight } = require('./methods/put/light-swich');
-const { colors, customColor } = require('./presets/presets');
+const { customColor } = require('./presets/customColours');
+const { colors } = require('./presets/presets');
 
-discordBot()
+// discordBot()
 
 // setLightCustom('orange')
 
